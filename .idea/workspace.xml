@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc9c1e9-7e6c-411e-8faa-56245f465d41" name="Changes" comment=" 1 lesson">
+    <list default="true" id="1dc9c1e9-7e6c-411e-8faa-56245f465d41" name="Changes" comment="add for">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stud/anna/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stud/anna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stud/anna/Main.java" afterDir="false" />
     </list>
@@ -17,6 +18,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,9 +42,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/anna_/IdeaProjects/QAguru/qa_guru_java_16"
+    "last_opened_file_path": "C:/Users/anna_/IdeaProjects/HomeWorkFiles"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="stud.anna" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668537947640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add for">
+      <created>1672674820594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672674820594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" 1 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 1 lesson" />
+    <MESSAGE value="add for" />
+    <option name="LAST_COMMIT_MESSAGE" value="add for" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package stud.anna;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +13,19 @@ public class Main {
 
         System.out.println("Длина массива: " + intArr0.length);
         System.out.println("Массив: " + Arrays.toString(intArr0));
+
+        int [][] twoDimensionalArray = new int [][] {intArr0, intArr};
+
+        for (int i = 0; i < twoDimensionalArray.length; i++) {
+            int [] arr = twoDimensionalArray[i];
+            for (int a = 0; a < arr.length; a++) {
+                if (arr[a] == -100) {
+                    System.out.println("Нашли: " + arr[a]);
+                    break;
+                }
+                System.out.println("Neat iteration");
+            }
+        }
 
         for (int i = 0; i < intArr0.length; i++) {
             System.out.println(i + "-й элемент массива: " + intArr0[i]);
@@ -37,6 +50,79 @@ public class Main {
             System.out.println("Нашли: " + intArr0[i]);
             break;
         }
+        // цикл for each
+        for (int element:intArr0) {
+            if (element == -100) {
+                System.out.println("Нашли: " + element);
+                break;
+        }
+            System.out.println("Neat iteration");
+        }
+
+        int indexForLoop = 0;
+        while (indexForLoop < intArr0.length) {
+
+            indexForLoop++;
+
+        }
+
+        boolean founded = false;
+        while (!founded) {
+            // search process
+            founded = true;
+        }
+
+        // коллекции
+        //list<String>
+
+        List<Integer> intList = List.of(1, 42, -100);
+        intList.remove((Integer) 1);
+        intList.stream()
+                .filter(e -> e == -100)
+                .findFirst()
+                .orElseThrow();
+
+        List<Integer> intList2 = new ArrayList<>();
+        for (Integer:intList2) {
+        }
+        intList2.add(1);
+
+        List<List<Integer>> intList3 = List.of(
+                List.of(1, 42, -100),
+                List.of(10, 427, -104350));
+
+        Set<String> stringSet = Set.of("Dima", "Vasya"); //хранение только уникальных объектов
+        Set<String> stringSet2 = new HashSet<>(); //получение не в порядке добавления
+        stringSet.add();
+
+        Map<String, People> aMap = new HashMap<>();
+        Map<String, People> aMap2 = Map.of(
+                "12345", new People(),
+                "5234", new People()
+                );
+        aMap2.put("678", new People());
+        aMap2.get("5234");
+        Set<String> keySet = aMap2.keySet(); //возвращает ключи
+        Collection<People> values = aMap2.values(); // возвращает значения
+        Set <Map.Entry<String, People>> entries =  aMap2.entrySet(); // перебрать ключи и значения
+        for (Map.Entry<String, People> entry: entries) {
+            if (entry.getKey().equals("5234")) {
+                entry.getValue().sayRespect();
+            }
+        }
+
+        //как еще можно решить задачу перебрать ключ и значения
+        for (String key:
+             keySet) {
+            if (key.equals("5234")) {
+                aMap2.get(key).sayRespect();
+            }
+
+        }
+
+
+
+
 
         // целые числа
         byte varByte = 0; // 2 бита -128 ... 127
