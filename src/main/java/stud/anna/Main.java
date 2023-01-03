@@ -120,6 +120,12 @@ public class Main {
 
         }
 
+        // разные типы данных
+
+        List<Object> commonList = new ArrayList<>();
+        commonList.add("Dima");
+        commonList.add(Set.of(1, 2));
+
 
 
 

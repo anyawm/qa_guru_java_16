@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc9c1e9-7e6c-411e-8faa-56245f465d41" name="Changes" comment="add for">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stud/anna/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1dc9c1e9-7e6c-411e-8faa-56245f465d41" name="Changes" comment="add collection">
       <change beforePath="$PROJECT_DIR$/src/main/java/stud/anna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stud/anna/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672674820594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add collection">
+      <created>1672772243711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672772243711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" 1 lesson" />
     <MESSAGE value="add for" />
-    <option name="LAST_COMMIT_MESSAGE" value="add for" />
+    <MESSAGE value="add collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add collection" />
   </component>
 </project>
